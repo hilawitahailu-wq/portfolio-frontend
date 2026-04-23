@@ -1,37 +1,4 @@
-/*import { useState } from "react";
-    import profileImg from './assets/profile.jpg';
 
-import "./Home.css";
-
-
-
-function Home() {
-  const [greeting, setGreeting] = useState("Welcome to my portfolio!");
-
-  const handleClick = () => {
-    setGreeting("Hi there! Thanks for visiting 😊");
-  };
-
-  return (
-    <section className="home-container" id="home">
-  
-      <h1>Hilawit Assefa</h1>
-      <p>Frontend Developer | React Enthusiast</p>
-      <p className="greeting">{greeting}</p>
-      <button onClick={handleClick}>Click Me!</button>
-      <div>
-     
-        
-      
-
-<img src={profileImg} alt="Profile" className="profile-img" />
-        
-      </div>
-    </section>
-  );
-}*/
-
-//export default Home;//
 import React from "react";
 import "./Home.css";
 
