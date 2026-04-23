@@ -48,7 +48,7 @@ function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/contact", {
+      const res = await fetch("https://portfolio-backend-eta-three-88.vercel.app/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
