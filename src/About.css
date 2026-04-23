@@ -1,0 +1,64 @@
+/* src/components/About/About.css */
+
+.about {
+  padding: 100px 20px;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 12px;
+  border:  #38bdf8;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:  #38bdf8;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 40px;
+  margin-bottom: 20px;
+}
+
+.about-details div strong {
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  background-color:  #38bdf8;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color:  #38bdf8;
+}
